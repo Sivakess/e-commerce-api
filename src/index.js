@@ -22,7 +22,7 @@ root.render(
     <App />
     </ShopContextProvider>
   </BrowserRouter>,
-
+);
   
     // <BrowserRouter>
     //     <Routes>
@@ -35,7 +35,7 @@ root.render(
     // </BrowserRouter>,
   
   
-);
+
 // try {
 //   reportWebVitals();
 // } catch (error) {
