@@ -1,40 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
+// import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from 'react-router-dom';
-import ShopContextProvider from './context/ShopContext.jsx';
-
-
-// import ReactDOM from 'react-dom';
-// import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import App from './App';
-// import Login from './Component/Login';
-// import Register from './Component/Register';
-// import Home from './Component/Home';
-
+// import ShopContextProvider from './context/ShopContext.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
-  <ShopContextProvider>
-    <App />
-    </ShopContextProvider>
-  </BrowserRouter>,
+  // <BrowserRouter>
+  // <ShopContextProvider>
+  //   <App />
+  //   </ShopContextProvider>
+  // </BrowserRouter>,
+
+  
+    <BrowserRouter>
+        
+      <App />
+        
+    </BrowserRouter>,
+  
 );
-  
-    // <BrowserRouter>
-    //     <Routes>
-    //         <Route path="/" element={<App />}>
-    //             <Route path="login" element={<Login />} />
-    //             <Route path="register" element={<Register />} />
-    //             <Route path="home" element={<Home />} />
-    //         </Route>
-    //     </Routes>
-    // </BrowserRouter>,
-  
-  
 
 // try {
 //   reportWebVitals();

@@ -4,7 +4,7 @@ import React from 'react';
 function Footer() {
     return (
         <footer>
-            <p>&copy; 2024 My Website</p>
+            <p className='d-flex justify-content-center fw-bolder mb-5'>&copy; 2024 My Website</p>
         </footer>
     );
 }

@@ -19,7 +19,7 @@ const Form = () => {
         <option value="BMW">BMW</option>
         <option value="ROLLSROYS">ROLLSROYS</option>
         <option value="JAQUAR">JAQUAR</option>
-        <option value="SAFARI">SAFARI</option>
+        <option value="FERAARI">FERAARI</option>
 
        
 
